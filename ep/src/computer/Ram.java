@@ -3,10 +3,22 @@ package computer;
 import java.util.LinkedList;
 import java.util.*;
 import computer.MemoryObject;
+import java.util.function.IntFunction;
 
 public class Ram {
     
-    LinkedList<MemoryObject> linkedList = new LinkedList<MemoryObject>();
+    public static LinkedList<MemoryObject> linkedList = new LinkedList<MemoryObject>();
+
+    public static void printHexValue(){
+        for (Iterator i = linkedList.iterator(); i.hasNext();) {
+          MemoryObject obj = (MemoryObject) (i.next());
+             System.out.println(obj.hexValue);
+         }
+    }
+
+    
+
+    
     
     
 

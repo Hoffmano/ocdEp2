@@ -6,6 +6,10 @@ import java.util.Scanner;
 
 public class Tradutor {
     
+    int nextEmpyt = 0;
+    
+    
+    
     public static boolean isNumeric(String strNum) {
         try {
             double d = Double.parseDouble(strNum);
@@ -22,7 +26,7 @@ public class Tradutor {
         // executar a decodificação do codigo
         Scanner scanner = new Scanner(code);
         while (scanner.hasNextLine()){
-
+            
                 //quebrar a string nos termos desajados
                 String entrada = scanner.nextLine();
                 //seapra a entrada em opcode e parametros
@@ -89,13 +93,16 @@ public class Tradutor {
                         break;
                 }
 
-                //debug println
-                //System.out.println(hexValue);
-
-
-
+                
+                MemoryObject obj = new MemoryObject(Main.toHex(nextEmpyt), hexValue);
+                ram.insert(obj);
+                
+//                return obj;
+                
+                
 
         }
+//        return null;
 
     }
 

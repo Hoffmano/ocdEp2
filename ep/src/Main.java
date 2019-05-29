@@ -6,10 +6,21 @@ import javax.swing.JFrame;
 
 //classe mestra o Main onde tudo começa
 public class Main {
-    public static void main(String[] args) throws IOException {
+    
+    public static String toHex(int i){
+        return Integer.toHexString(i);
+    }
+    
+    public static int toInt(String s){
+        return Integer.parseInt(s, 16);
+    }
+    
+    public static void main(String[] args) {
 
         Frame frame = new Frame();
-        frame.setVisible(true);      
+        frame.setVisible(true);   
+        
+        
         
 
     }
