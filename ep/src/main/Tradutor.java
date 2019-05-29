@@ -1,3 +1,5 @@
+package main;
+
 
 import computer.MemoryObject;
 import computer.Ram;
@@ -7,21 +9,28 @@ import java.util.Scanner;
 public class Tradutor {
     
     int nextEmpyt = 0;
+    boolean c = false;
     
     
     
-    public static boolean isNumeric(String strNum) {
-        try {
-            double d = Double.parseDouble(strNum);
-        } catch (NumberFormatException | NullPointerException nfe) {
-            return false;
+    public static boolean isHexString(String strNum) {
+        if(strNum.length() > 16) return false;
+        
+        try{
+            Main.toInt(strNum);
         }
+        catch(NumberFormatException e){
+            System.out.println("not hex string error");
+            System.exit(1);
+        }
+        
+        
         return true;
     }
     
     public void decodifica(String code){
         
-        Ram ram = new Ram();
+        
                 
         // executar a decodificação do codigo
         Scanner scanner = new Scanner(code);
@@ -83,26 +92,49 @@ public class Tradutor {
                                         hexValue += "10000";
                                         break;
                                     default:
-                                        if(isNumeric(parametroB)){
-//                                            MemoryObject newMemoryObject = new MemoryObject(parametroB);
-//                                            ram.insert(newMemoryObject);
+                                        if(isHexString(parametroB)){
+                                            c = true;
+                                            MemoryObject obj = new MemoryObject(Main.toHex(nextEmpyt + 1), parametroB);
+                                            Main.ram.insert(obj);
+                                            hexValue = "000111";
+                                            hexValue += "00000";
+                                            hexValue += Main.toHex(nextEmpyt + 1);
                                         }
+//                                        else(parametroB.charAt(0) == '['){
+//                                            int i = 0;
+//                                        }
+                                        
                                 }
                                 break;
+                            case "[ax]":
+                            case "bx":
+                            case "[bx]":
+                            case "cx":
+                            case "[cx]":
+                            case "dx":
+                            case "[dx]":
+                            default:
+                            
                         }
                         break;
                 }
 
                 
                 MemoryObject obj = new MemoryObject(Main.toHex(nextEmpyt), hexValue);
-                ram.insert(obj);
+                Main.ram.insert(obj);
                 
-//                return obj;
+                if(c == true){
+                    nextEmpyt += 2;
+                }
+                else{
+                    nextEmpyt += 1;
+                }
+                c = false;
                 
                 
 
         }
-//        return null;
+
 
     }
 

@@ -10,10 +10,5 @@ public class MemoryObject {
     public MemoryObject(String address, String hexValue) {
         this.address = address;
         this.hexValue = hexValue;
-    }
-//    public MemoryObject(String hexValue){
-//        this.address = address;
-//        for(int i = 0; ;)
-//    }
-    
+    }    
 }

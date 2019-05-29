@@ -1,3 +1,5 @@
+package main;
+
 
 import computer.MemoryObject;
 import java.util.Arrays;
@@ -37,10 +39,8 @@ public class Frame extends javax.swing.JFrame {
         next = new javax.swing.JButton();
         ac = new javax.swing.JLabel();
         acHexValue = new javax.swing.JLabel();
-        memoryHexValue = new javax.swing.JLabel();
         bc = new javax.swing.JLabel();
         bcHexValue = new javax.swing.JLabel();
-        address = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -55,7 +55,7 @@ public class Frame extends javax.swing.JFrame {
             }
         });
 
-        next.setText("next");
+        next.setText("debug button");
         next.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextActionPerformed(evt);
@@ -66,13 +66,9 @@ public class Frame extends javax.swing.JFrame {
 
         acHexValue.setText("0000000000000000");
 
-        memoryHexValue.setText("memoryHexValue");
-
         bc.setText("bc");
 
         bcHexValue.setText("1234560000000000");
-
-        address.setText("address");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -80,30 +76,23 @@ public class Frame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(start)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(next)
-                        .addContainerGap(433, Short.MAX_VALUE))
+                        .addGap(58, 58, 58)
+                        .addComponent(next))
+                    .addComponent(scrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(scrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(bc)
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(bc)
-                                .addGap(18, 18, 18)
-                                .addComponent(bcHexValue)
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(ac)
-                                .addGap(18, 18, 18)
-                                .addComponent(acHexValue)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(address)
-                                .addGap(18, 18, 18)
-                                .addComponent(memoryHexValue)
-                                .addGap(31, 31, 31))))))
+                        .addComponent(bcHexValue))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(ac)
+                        .addGap(18, 18, 18)
+                        .addComponent(acHexValue)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -114,17 +103,15 @@ public class Frame extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(ac)
-                            .addComponent(acHexValue)
-                            .addComponent(memoryHexValue)
-                            .addComponent(address))
+                            .addComponent(acHexValue))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(bc)
                             .addComponent(bcHexValue))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(start)
-                    .addComponent(next))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(next)
+                    .addComponent(start))
                 .addContainerGap(268, Short.MAX_VALUE))
         );
 
@@ -139,7 +126,7 @@ public class Frame extends javax.swing.JFrame {
     }//GEN-LAST:event_startActionPerformed
 
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
-        //computer.Ram.printHexValue();
+        computer.Ram.printHexValue();
     }//GEN-LAST:event_nextActionPerformed
 
     /**
@@ -177,13 +164,7 @@ public class Frame extends javax.swing.JFrame {
         });
     }  
 
-    public void setAddress(String address) {
-        this.address.setText(address);
-    }
-
-    public void setMemoryHexValue(String memoryHexValue) {
-        this.memoryHexValue.setText(memoryHexValue);
-    }
+   
     
     
     
@@ -191,10 +172,8 @@ public class Frame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel ac;
     private javax.swing.JLabel acHexValue;
-    private javax.swing.JLabel address;
     private javax.swing.JLabel bc;
     private javax.swing.JLabel bcHexValue;
-    private javax.swing.JLabel memoryHexValue;
     private javax.swing.JButton next;
     private javax.swing.JScrollPane scrollPane;
     private javax.swing.JButton start;

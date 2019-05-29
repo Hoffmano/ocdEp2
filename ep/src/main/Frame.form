@@ -25,36 +25,28 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
                       <Component id="start" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                       <Component id="next" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="433" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="scrollPane" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="bc" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="bcHexValue" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="scrollPane" min="-2" max="-2" attributes="0"/>
+                      <Component id="ac" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="bc" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="bcHexValue" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="ac" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="acHexValue" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="32767" attributes="0"/>
-                              <Component id="address" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="memoryHexValue" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <Component id="acHexValue" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -68,8 +60,6 @@
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="ac" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="acHexValue" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="memoryHexValue" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="address" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
@@ -79,9 +69,9 @@
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="start" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="next" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="next" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="start" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="268" max="32767" attributes="0"/>
           </Group>
@@ -114,7 +104,7 @@
     </Component>
     <Component class="javax.swing.JButton" name="next">
       <Properties>
-        <Property name="text" type="java.lang.String" value="next"/>
+        <Property name="text" type="java.lang.String" value="debug button"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextActionPerformed"/>
@@ -130,11 +120,6 @@
         <Property name="text" type="java.lang.String" value="0000000000000000"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="memoryHexValue">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="memoryHexValue"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JLabel" name="bc">
       <Properties>
         <Property name="text" type="java.lang.String" value="bc"/>
@@ -143,11 +128,6 @@
     <Component class="javax.swing.JLabel" name="bcHexValue">
       <Properties>
         <Property name="text" type="java.lang.String" value="1234560000000000"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="address">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="address"/>
       </Properties>
     </Component>
   </SubComponents>
