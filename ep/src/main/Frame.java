@@ -2,6 +2,7 @@ package main;
 
 
 import computer.MemoryObject;
+import computer.Ram;
 import java.util.Arrays;
 import javax.swing.JLabel;
 
@@ -33,7 +34,7 @@ public class Frame extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        scrollPane = new javax.swing.JScrollPane();
+        scrollPaneTextArea = new javax.swing.JScrollPane();
         textArea = new javax.swing.JTextArea();
         start = new javax.swing.JButton();
         next = new javax.swing.JButton();
@@ -41,12 +42,14 @@ public class Frame extends javax.swing.JFrame {
         acHexValue = new javax.swing.JLabel();
         bc = new javax.swing.JLabel();
         bcHexValue = new javax.swing.JLabel();
+        scrollPaneTextPane = new javax.swing.JScrollPane();
+        textPane = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         textArea.setColumns(20);
         textArea.setRows(5);
-        scrollPane.setViewportView(textArea);
+        scrollPaneTextArea.setViewportView(textArea);
 
         start.setText("start");
         start.addActionListener(new java.awt.event.ActionListener() {
@@ -70,6 +73,9 @@ public class Frame extends javax.swing.JFrame {
 
         bcHexValue.setText("1234560000000000");
 
+        textPane.setEditable(false);
+        scrollPaneTextPane.setViewportView(textPane);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -77,11 +83,11 @@ public class Frame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(scrollPaneTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(start)
                         .addGap(58, 58, 58)
-                        .addComponent(next))
-                    .addComponent(scrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(next)))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -93,13 +99,17 @@ public class Frame extends javax.swing.JFrame {
                         .addGap(18, 18, 18)
                         .addComponent(acHexValue)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(22, 22, 22))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(scrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(scrollPaneTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(ac)
@@ -112,13 +122,20 @@ public class Frame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(next)
                     .addComponent(start))
-                .addContainerGap(268, Short.MAX_VALUE))
+                .addGap(35, 35, 35)
+                .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(62, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void startActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startActionPerformed
+        textPane.setText(textPane.getText() + "-------------------------------------------------------\n");
+        textPane.setText(textPane.getText() + "codigo carregado para memoria\n");
+        //textPane.print();
+        
+        Ram.clear();
         Tradutor tradutor = new Tradutor();
         tradutor.decodifica(textArea.getText());
         
@@ -126,6 +143,7 @@ public class Frame extends javax.swing.JFrame {
     }//GEN-LAST:event_startActionPerformed
 
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
+        System.out.println("-------------------------------------------------------");
         computer.Ram.printHexValue();
     }//GEN-LAST:event_nextActionPerformed
 
@@ -175,8 +193,10 @@ public class Frame extends javax.swing.JFrame {
     private javax.swing.JLabel bc;
     private javax.swing.JLabel bcHexValue;
     private javax.swing.JButton next;
-    private javax.swing.JScrollPane scrollPane;
+    private javax.swing.JScrollPane scrollPaneTextArea;
+    private javax.swing.JScrollPane scrollPaneTextPane;
     private javax.swing.JButton start;
     private javax.swing.JTextArea textArea;
+    private javax.swing.JTextPane textPane;
     // End of variables declaration//GEN-END:variables
 }

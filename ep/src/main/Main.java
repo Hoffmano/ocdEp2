@@ -18,16 +18,8 @@ public class Main {
         return Integer.toHexString(i);
     }
     
-    public static int toInt(String s) throws NumberFormatException{
-        
-        try{
-            return Integer.parseInt(s, 16);
-        }
-        catch(NumberFormatException e){
-            System.out.println("not hex string error");
-            System.exit(1);
-        }
-        return 0;
+    public static int toInt(String s){
+        return Integer.parseInt(s, 16);
     }
     
     public static void main(String[] args) {

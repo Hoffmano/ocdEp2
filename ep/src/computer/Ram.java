@@ -30,6 +30,10 @@ public class Ram {
         linkedList.remove(memoryObject);
 
     }
+    
+    public static void clear(){
+        linkedList.clear();
+    }
 
     public static String getAddress(LinkedList linkedList, String hexValue) {
         Iterator<MemoryObject> iterator = linkedList.iterator();

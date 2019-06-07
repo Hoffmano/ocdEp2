@@ -1,0 +1,8 @@
+mov ax,bx
+mov ax,fff42
+mov ax,[bx]
+mov ax,[1]
+mov [ax],bx
+mov [ax],1
+mov [132],1ff
+mov [312],ax
