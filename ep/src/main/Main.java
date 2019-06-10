@@ -1,13 +1,10 @@
 package main;
 
 import computer.Ram;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.LinkedList;
-import javax.swing.JFrame;
 
 //classe mestra o Main onde tudo começa
+//version 1.0
+
 public class Main {
     
     public static Ram ram = new Ram();
