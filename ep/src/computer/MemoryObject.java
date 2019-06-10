@@ -3,7 +3,6 @@ package computer;
 
 public class MemoryObject {
 
-    Ram ram = new Ram();
     public String address;
     public String hexValue;
 

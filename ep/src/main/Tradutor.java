@@ -32,18 +32,14 @@ public class Tradutor {
     }
     
     public static boolean isHexString(String strNum) {
+        
         if(strNum.length() > 4) {
             System.out.println("Tradutor.isHexString(): error length > 4");
             System.exit(1);
         }
         
-       
-  
         int aux = Integer.parseInt(strNum,16);  
    
-        
-        
-        
         return true;
     }
     
