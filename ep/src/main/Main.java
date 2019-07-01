@@ -1,17 +1,17 @@
 package main;
 
 import computer.Ram;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.LinkedList;
-import javax.swing.JFrame;
+import computer.cpu.Registrador;
+import computer.cpu.Uc;
 
 //classe mestra o Main onde tudo começa
 public class Main {
     
     public static Ram ram = new Ram();
     public static Frame frame = new Frame();
+    public static Uc uc = new Uc();
+    
+    
     
     
     public static String toHex(int i){
@@ -26,6 +26,8 @@ public class Main {
 //        System.out.println(toInt("fff"));
 //        System.out.println(toInt("kqa"));
         frame.setVisible(true);   
+        
+        System.out.println(uc.firmware[0][1]);
         
     }
 

@@ -38,12 +38,79 @@ public class Frame extends javax.swing.JFrame {
         textArea = new javax.swing.JTextArea();
         start = new javax.swing.JButton();
         next = new javax.swing.JButton();
-        ac = new javax.swing.JLabel();
-        acHexValue = new javax.swing.JLabel();
-        bc = new javax.swing.JLabel();
-        bcHexValue = new javax.swing.JLabel();
         scrollPaneTextPane = new javax.swing.JScrollPane();
         textPane = new javax.swing.JTextPane();
+        jPanel1 = new javax.swing.JPanel();
+        pcValue5 = new javax.swing.JLabel();
+        acHexValue15 = new javax.swing.JLabel();
+        bc5 = new javax.swing.JLabel();
+        operacao = new javax.swing.JLabel();
+        eOperacao = new javax.swing.JLabel();
+        bcHexValue5 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        cxValue = new javax.swing.JLabel();
+        dxValue = new javax.swing.JLabel();
+        cx = new javax.swing.JLabel();
+        axValue = new javax.swing.JLabel();
+        bx = new javax.swing.JLabel();
+        bxValue = new javax.swing.JLabel();
+        dx = new javax.swing.JLabel();
+        acValue = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        mar = new javax.swing.JLabel();
+        pcValue = new javax.swing.JLabel();
+        mbrValue = new javax.swing.JLabel();
+        pc = new javax.swing.JLabel();
+        mbr = new javax.swing.JLabel();
+        marValue = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        acHexValue4 = new javax.swing.JLabel();
+        car = new javax.swing.JLabel();
+        cbr = new javax.swing.JLabel();
+        pcValue3 = new javax.swing.JLabel();
+        microoperacao = new javax.swing.JPanel();
+        acHexValue5 = new javax.swing.JLabel();
+        e = new javax.swing.JLabel();
+        pcValue4 = new javax.swing.JLabel();
+        bcHexValue4 = new javax.swing.JLabel();
+        g = new javax.swing.JLabel();
+        l = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        opUla = new javax.swing.JLabel();
+        ac = new javax.swing.JLabel();
+        asdads = new javax.swing.JLabel();
+        bcHexValue2 = new javax.swing.JLabel();
+        ula = new javax.swing.JLabel();
+        acHexValue9 = new javax.swing.JLabel();
+        aux = new javax.swing.JLabel();
+        pcValue2 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
+        p1 = new javax.swing.JLabel();
+        acHexValue3 = new javax.swing.JLabel();
+        op = new javax.swing.JLabel();
+        ir = new javax.swing.JLabel();
+        bcHexValue6 = new javax.swing.JLabel();
+        bcHexValue3 = new javax.swing.JLabel();
+        pcValue6 = new javax.swing.JLabel();
+        p2 = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        cP1 = new javax.swing.JLabel();
+        cP2 = new javax.swing.JLabel();
+        title = new javax.swing.JLabel();
+        acHexValue12 = new javax.swing.JLabel();
+        pcValue9 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        acHexValue7 = new javax.swing.JLabel();
+        sysBus = new javax.swing.JLabel();
+        bcHexValue7 = new javax.swing.JLabel();
+        inBus = new javax.swing.JLabel();
+        jPanel10 = new javax.swing.JPanel();
+        av = new javax.swing.JLabel();
+        pcValue7 = new javax.swing.JLabel();
+        write = new javax.swing.JLabel();
+        read = new javax.swing.JLabel();
+        pcValue11 = new javax.swing.JLabel();
+        bcHexValue12 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -65,16 +132,534 @@ public class Frame extends javax.swing.JFrame {
             }
         });
 
-        ac.setText("ac");
-
-        acHexValue.setText("0000000000000000");
-
-        bc.setText("bc");
-
-        bcHexValue.setText("1234560000000000");
-
         textPane.setEditable(false);
         scrollPaneTextPane.setViewportView(textPane);
+
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
+
+        pcValue5.setText("0000000000000000");
+
+        acHexValue15.setText("0000000000000000");
+
+        bc5.setText("microoperacao");
+
+        operacao.setText("operacao");
+
+        eOperacao.setText("enderaco operacao");
+
+        bcHexValue5.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(eOperacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(17, 17, 17)
+                        .addComponent(acHexValue15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(operacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(74, 74, 74)
+                        .addComponent(pcValue5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(bc5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(41, 41, 41)
+                        .addComponent(bcHexValue5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue5)
+                    .addComponent(operacao))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(eOperacao)
+                    .addComponent(acHexValue15))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bc5)
+                    .addComponent(bcHexValue5))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
+
+        cxValue.setText("0000000000000000");
+
+        dxValue.setText("0000000000000000");
+
+        cx.setText("cx");
+
+        axValue.setText("ax");
+
+        bx.setText("bx");
+
+        bxValue.setText("0000000000000000");
+
+        dx.setText("dx");
+
+        acValue.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bx)
+                            .addComponent(axValue)
+                            .addComponent(cx))
+                        .addGap(99, 99, 99)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cxValue)
+                            .addComponent(bxValue)
+                            .addComponent(acValue)))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addComponent(dx)
+                        .addGap(99, 99, 99)
+                        .addComponent(dxValue)))
+                .addContainerGap())
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(axValue)
+                    .addComponent(acValue))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bx)
+                    .addComponent(bxValue))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(cxValue)
+                    .addComponent(cx))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(dx)
+                    .addComponent(dxValue))
+                .addContainerGap())
+        );
+
+        jPanel3.setBackground(new java.awt.Color(153, 153, 153));
+
+        mar.setText("mar");
+
+        pcValue.setText("0000000000000000");
+
+        mbrValue.setText("0000000000000000");
+
+        pc.setText("pc");
+
+        mbr.setText("mbr");
+
+        marValue.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(mbr)
+                    .addComponent(mar)
+                    .addComponent(pc))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(mbrValue, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(pcValue, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(marValue))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(pcValue)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(mar)
+                            .addComponent(marValue))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(mbr)
+                            .addComponent(mbrValue)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
+                        .addComponent(pc)
+                        .addGap(44, 44, 44)))
+                .addContainerGap())
+        );
+
+        jPanel4.setBackground(new java.awt.Color(153, 153, 153));
+
+        acHexValue4.setText("0000000000000000");
+
+        car.setText("car");
+
+        cbr.setText("cbr");
+
+        pcValue3.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(car)
+                    .addComponent(cbr))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue3)
+                    .addComponent(acHexValue4))
+                .addContainerGap())
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue3)
+                    .addComponent(car))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cbr)
+                    .addComponent(acHexValue4))
+                .addContainerGap())
+        );
+
+        microoperacao.setBackground(new java.awt.Color(153, 153, 153));
+
+        acHexValue5.setText("0000000000000000");
+
+        e.setText("E");
+
+        pcValue4.setText("0000000000000000");
+
+        bcHexValue4.setText("0000000000000000");
+
+        g.setText("G");
+
+        l.setText("L");
+
+        javax.swing.GroupLayout microoperacaoLayout = new javax.swing.GroupLayout(microoperacao);
+        microoperacao.setLayout(microoperacaoLayout);
+        microoperacaoLayout.setHorizontalGroup(
+            microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(microoperacaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(l)
+                    .addComponent(g)
+                    .addComponent(e))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(acHexValue5)
+                    .addGroup(microoperacaoLayout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(pcValue4))
+                    .addComponent(bcHexValue4))
+                .addContainerGap())
+        );
+        microoperacaoLayout.setVerticalGroup(
+            microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(microoperacaoLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(e)
+                    .addComponent(bcHexValue4))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue4)
+                    .addComponent(g))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(microoperacaoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(l)
+                    .addComponent(acHexValue5))
+                .addContainerGap())
+        );
+
+        jPanel6.setBackground(new java.awt.Color(153, 153, 153));
+
+        opUla.setText("operacao ula");
+
+        ac.setText("ac");
+
+        asdads.setText("0000000000000000");
+
+        bcHexValue2.setText("0000000000000000");
+
+        ula.setText("ula");
+
+        acHexValue9.setText("0000000000000000");
+
+        aux.setText("aux");
+
+        pcValue2.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(aux)
+                            .addComponent(ac)
+                            .addComponent(ula))
+                        .addGap(91, 91, 91)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bcHexValue2)
+                            .addComponent(pcValue2)
+                            .addComponent(asdads)))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(opUla)
+                        .addGap(38, 38, 38)
+                        .addComponent(acHexValue9)))
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(aux)
+                    .addComponent(bcHexValue2))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue2)
+                    .addComponent(ac))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ula)
+                    .addComponent(asdads))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(opUla)
+                    .addComponent(acHexValue9))
+                .addContainerGap())
+        );
+
+        jPanel7.setBackground(new java.awt.Color(153, 153, 153));
+
+        p1.setText("p1");
+
+        acHexValue3.setText("0000000000000000");
+
+        op.setText("op");
+
+        ir.setText("ir");
+
+        bcHexValue6.setText("0000000000000000");
+
+        bcHexValue3.setText("0000000000000000");
+
+        pcValue6.setText("0000000000000000");
+
+        p2.setText("p2");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(ir)
+                    .addComponent(op)
+                    .addComponent(p1)
+                    .addComponent(p2))
+                .addGap(98, 98, 98)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(bcHexValue3, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bcHexValue6)
+                    .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(acHexValue3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(pcValue6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(ir)
+                    .addComponent(bcHexValue6))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue6)
+                    .addComponent(op))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(p1)
+                    .addComponent(acHexValue3))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(p2)
+                    .addComponent(bcHexValue3))
+                .addContainerGap())
+        );
+
+        jPanel8.setBackground(new java.awt.Color(153, 153, 153));
+
+        cP1.setText("p1");
+
+        cP2.setText("p2");
+
+        title.setText("COPY");
+
+        acHexValue12.setText("0000000000000000");
+
+        pcValue9.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(cP2)
+                            .addComponent(cP1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(acHexValue12)
+                            .addComponent(pcValue9)))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(title)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(title)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pcValue9)
+                    .addComponent(cP1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(cP2)
+                    .addComponent(acHexValue12))
+                .addContainerGap())
+        );
+
+        jPanel9.setBackground(new java.awt.Color(153, 153, 153));
+
+        acHexValue7.setText("0000000000000000");
+
+        sysBus.setText("system bus");
+
+        bcHexValue7.setText("0000000000000000");
+
+        inBus.setText("internal bus");
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(sysBus)
+                    .addComponent(inBus))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(acHexValue7)
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(1, 1, 1)
+                        .addComponent(bcHexValue7)))
+                .addContainerGap())
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sysBus)
+                    .addComponent(acHexValue7))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(inBus)
+                    .addComponent(bcHexValue7))
+                .addContainerGap())
+        );
+
+        jPanel10.setBackground(new java.awt.Color(153, 153, 153));
+
+        av.setText("address valid");
+
+        pcValue7.setText("0000000000000000");
+
+        write.setText("write");
+
+        read.setText("read");
+
+        pcValue11.setText("0000000000000000");
+
+        bcHexValue12.setText("0000000000000000");
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(av)
+                    .addComponent(read)
+                    .addComponent(write))
+                .addGap(56, 56, 56)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addComponent(pcValue11)
+                        .addGap(6, 6, 6))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bcHexValue12, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(pcValue7, javax.swing.GroupLayout.Alignment.TRAILING))
+                        .addContainerGap())))
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(read)
+                            .addComponent(pcValue7))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(write)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(av))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addGap(22, 22, 22)
+                        .addComponent(bcHexValue12)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(pcValue11)))
+                .addContainerGap())
+        );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -82,55 +667,73 @@ public class Frame extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(scrollPaneTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(scrollPaneTextArea)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(start)
-                        .addGap(58, 58, 58)
+                        .addComponent(start, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(next)))
-                .addGap(18, 18, 18)
+                .addGap(12, 12, 12)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(bc)
-                        .addGap(18, 18, 18)
-                        .addComponent(bcHexValue))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(ac)
-                        .addGap(18, 18, 18)
-                        .addComponent(acHexValue)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.PREFERRED_SIZE, 365, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(22, 22, 22))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(microoperacao, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(scrollPaneTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(ac)
-                            .addComponent(acHexValue))
+                        .addComponent(scrollPaneTextArea, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(bc)
-                            .addComponent(bcHexValue))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(next)
-                    .addComponent(start))
-                .addGap(35, 35, 35)
-                .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(62, Short.MAX_VALUE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(next)
+                            .addComponent(start))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(scrollPaneTextPane, javax.swing.GroupLayout.PREFERRED_SIZE, 247, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(microoperacao, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(12, 12, 12)
+                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void startActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startActionPerformed
+        
+   
+        pcValue.setText("0");
+        
         textPane.setText(textPane.getText() + "-------------------------------------------------------\n");
         textPane.setText(textPane.getText() + "codigo carregado para memoria\n");
         //textPane.print();
@@ -145,8 +748,14 @@ public class Frame extends javax.swing.JFrame {
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
         textPane.setText(textPane.getText() + "-------------------------------------------------------\n");
         textPane.setText(textPane.getText() + "memoria\n");
-        textPane.setText(textPane.getText() + "address          hexValue\n");
+        textPane.setText(textPane.getText() + "address               hexValue\n");
         textPane.setText(textPane.getText() + computer.Ram.printHexValue() + "\n");
+        
+        //todo o codigo ja esta carregado para a memoria
+        
+        // agora precisamos iniciar o primeiro ciclo de busca do programa para dar inicio em todo o processo
+        
+        
     }//GEN-LAST:event_nextActionPerformed
 
     /**
@@ -191,14 +800,81 @@ public class Frame extends javax.swing.JFrame {
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel ac;
-    private javax.swing.JLabel acHexValue;
-    private javax.swing.JLabel bc;
-    private javax.swing.JLabel bcHexValue;
+    private javax.swing.JLabel acHexValue12;
+    private javax.swing.JLabel acHexValue15;
+    private javax.swing.JLabel acHexValue3;
+    private javax.swing.JLabel acHexValue4;
+    private javax.swing.JLabel acHexValue5;
+    private javax.swing.JLabel acHexValue7;
+    private javax.swing.JLabel acHexValue9;
+    private javax.swing.JLabel acValue;
+    private javax.swing.JLabel asdads;
+    private javax.swing.JLabel aux;
+    private javax.swing.JLabel av;
+    private javax.swing.JLabel axValue;
+    private javax.swing.JLabel bc5;
+    private javax.swing.JLabel bcHexValue12;
+    private javax.swing.JLabel bcHexValue2;
+    private javax.swing.JLabel bcHexValue3;
+    private javax.swing.JLabel bcHexValue4;
+    private javax.swing.JLabel bcHexValue5;
+    private javax.swing.JLabel bcHexValue6;
+    private javax.swing.JLabel bcHexValue7;
+    private javax.swing.JLabel bx;
+    private javax.swing.JLabel bxValue;
+    private javax.swing.JLabel cP1;
+    private javax.swing.JLabel cP2;
+    private javax.swing.JLabel car;
+    private javax.swing.JLabel cbr;
+    private javax.swing.JLabel cx;
+    private javax.swing.JLabel cxValue;
+    private javax.swing.JLabel dx;
+    private javax.swing.JLabel dxValue;
+    private javax.swing.JLabel e;
+    private javax.swing.JLabel eOperacao;
+    private javax.swing.JLabel g;
+    private javax.swing.JLabel inBus;
+    private javax.swing.JLabel ir;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
+    private javax.swing.JLabel l;
+    private javax.swing.JLabel mar;
+    private javax.swing.JLabel marValue;
+    private javax.swing.JLabel mbr;
+    private javax.swing.JLabel mbrValue;
+    private javax.swing.JPanel microoperacao;
     private javax.swing.JButton next;
+    private javax.swing.JLabel op;
+    private javax.swing.JLabel opUla;
+    private javax.swing.JLabel operacao;
+    private javax.swing.JLabel p1;
+    private javax.swing.JLabel p2;
+    private javax.swing.JLabel pc;
+    private javax.swing.JLabel pcValue;
+    private javax.swing.JLabel pcValue11;
+    private javax.swing.JLabel pcValue2;
+    private javax.swing.JLabel pcValue3;
+    private javax.swing.JLabel pcValue4;
+    private javax.swing.JLabel pcValue5;
+    private javax.swing.JLabel pcValue6;
+    private javax.swing.JLabel pcValue7;
+    private javax.swing.JLabel pcValue9;
+    private javax.swing.JLabel read;
     private javax.swing.JScrollPane scrollPaneTextArea;
     private javax.swing.JScrollPane scrollPaneTextPane;
     private javax.swing.JButton start;
+    private javax.swing.JLabel sysBus;
     private javax.swing.JTextArea textArea;
     private javax.swing.JTextPane textPane;
+    private javax.swing.JLabel title;
+    private javax.swing.JLabel ula;
+    private javax.swing.JLabel write;
     // End of variables declaration//GEN-END:variables
 }

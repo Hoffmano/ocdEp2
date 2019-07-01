@@ -2,8 +2,6 @@ package main;
 
 
 import computer.MemoryObject;
-import computer.Ram;
-import java.math.BigInteger;
 import java.util.Scanner;
 
 

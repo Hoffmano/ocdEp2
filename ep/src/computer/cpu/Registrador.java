@@ -11,4 +11,6 @@ package computer.cpu;
  */
 public class Registrador {
     
+    public int value;
+    
 }

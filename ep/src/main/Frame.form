@@ -23,35 +23,34 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="1" attributes="0">
-                  <Component id="scrollPaneTextArea" min="-2" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="scrollPaneTextPane" alignment="0" max="32767" attributes="0"/>
+                  <Component id="scrollPaneTextArea" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
-                      <Component id="start" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="start" min="-2" pref="109" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="next" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Component id="bc" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="bcHexValue" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="ac" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="acHexValue" min="-2" max="-2" attributes="0"/>
-                  </Group>
+              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel2" max="32767" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+                  <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel7" pref="0" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="32767" attributes="0"/>
-              <Component id="scrollPaneTextPane" min="-2" pref="365" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+                  <Component id="microoperacao" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel10" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jPanel8" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -60,27 +59,40 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="scrollPaneTextArea" min="-2" pref="229" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="ac" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="acHexValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="scrollPaneTextArea" min="-2" pref="229" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="next" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="start" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="bc" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="bcHexValue" alignment="3" min="-2" max="-2" attributes="0"/>
-                      </Group>
+                      <Component id="scrollPaneTextPane" min="-2" pref="247" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="microoperacao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="next" alignment="0" min="-2" max="-2" attributes="0"/>
-                  <Component id="start" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
-              <Component id="scrollPaneTextPane" min="-2" pref="171" max="-2" attributes="0"/>
-              <EmptySpace pref="62" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -117,26 +129,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="ac">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="ac"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="acHexValue">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="0000000000000000"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="bc">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="bc"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JLabel" name="bcHexValue">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="1234560000000000"/>
-      </Properties>
-    </Component>
     <Container class="javax.swing.JScrollPane" name="scrollPaneTextPane">
       <AuxValues>
         <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
@@ -147,6 +139,895 @@
         <Component class="javax.swing.JTextPane" name="textPane">
           <Properties>
             <Property name="editable" type="boolean" value="false"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="eOperacao" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="acHexValue15" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="operacao" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                          <Component id="pcValue5" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="bc5" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="bcHexValue5" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="operacao" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="eOperacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue15" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bc5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="pcValue5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acHexValue15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bc5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="microoperacao"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="operacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="operacao"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="eOperacao">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="enderaco operacao"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bx" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="axValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cx" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cxValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="bxValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="acValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="dx" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="99" max="-2" attributes="0"/>
+                          <Component id="dxValue" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="axValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bxValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="cxValue" min="-2" max="-2" attributes="0"/>
+                      <Component id="cx" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="dx" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="dxValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="cxValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dxValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cx">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="cx"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="axValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ax"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bx">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="bx"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bxValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dx">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="dx"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="mbr" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="mar" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="pc" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="mbrValue" alignment="0" max="32767" attributes="0"/>
+                      <Component id="pcValue" max="32767" attributes="0"/>
+                      <Component id="marValue" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="pcValue" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mar" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="marValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="mbr" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="mbrValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="pc" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="44" pref="44" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="mar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mar"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mbrValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="pc"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="mbr">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="mbr"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="marValue">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="car" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="cbr" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="car" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cbr" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="acHexValue4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="car">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="car"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cbr">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="cbr"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="microoperacao">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="l" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="g" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="e" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="acHexValue5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                          <Component id="pcValue4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="bcHexValue4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="e" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="g" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="l" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="acHexValue5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="e">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="E"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="g">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="G"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="l">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel6">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="aux" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="ac" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="ula" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bcHexValue2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="pcValue2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="asdads" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="opUla" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="acHexValue9" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aux" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="ac" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ula" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="asdads" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="opUla" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue9" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="opUla">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="operacao ula"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ac">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ac"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="asdads">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ula">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ula"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acHexValue9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="aux">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="aux"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel7">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ir" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="op" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="p1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="p2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="bcHexValue3" min="-2" pref="143" max="-2" attributes="0"/>
+                      <Component id="bcHexValue6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="acHexValue3" alignment="0" max="32767" attributes="0"/>
+                          <Component id="pcValue6" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ir" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="op" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="p1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="p2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="p1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="p1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acHexValue3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="op">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="op"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="ir">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="ir"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="p2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="p2"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel8">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="cP2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="cP1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="acHexValue12" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="pcValue9" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="title" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="title" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="pcValue9" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="cP1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cP2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue12" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="cP1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="p1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="cP2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="p2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="title">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="COPY"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="acHexValue12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel9">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="sysBus" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="inBus" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="acHexValue7" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                          <Component id="bcHexValue7" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="sysBus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="acHexValue7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="inBus" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="bcHexValue7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="acHexValue7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="sysBus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="system bus"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="inBus">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="internal bus"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel10">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="av" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="read" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="write" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="56" pref="56" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="pcValue11" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="bcHexValue12" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="pcValue7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="read" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="pcValue7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="write" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="av" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="bcHexValue12" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="pcValue11" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="av">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="address valid"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="write">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="write"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="read">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="read"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="pcValue11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="bcHexValue12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0000000000000000"/>
           </Properties>
         </Component>
       </SubComponents>
