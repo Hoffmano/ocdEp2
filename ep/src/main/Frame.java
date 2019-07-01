@@ -143,8 +143,10 @@ public class Frame extends javax.swing.JFrame {
     }//GEN-LAST:event_startActionPerformed
 
     private void nextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextActionPerformed
-        System.out.println("-------------------------------------------------------");
-        computer.Ram.printHexValue();
+        textPane.setText(textPane.getText() + "-------------------------------------------------------\n");
+        textPane.setText(textPane.getText() + "memoria\n");
+        textPane.setText(textPane.getText() + "address          hexValue\n");
+        textPane.setText(textPane.getText() + computer.Ram.printHexValue() + "\n");
     }//GEN-LAST:event_nextActionPerformed
 
     /**

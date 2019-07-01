@@ -9,11 +9,13 @@ public class Ram {
     
     public static LinkedList<MemoryObject> linkedList = new LinkedList<MemoryObject>();
 
-    public static void printHexValue(){
+    public static String printHexValue(){
+        String s = "";
         for (Iterator i = linkedList.iterator(); i.hasNext();) {
           MemoryObject obj = (MemoryObject) (i.next());
-             System.out.println(obj.address + " " + obj.hexValue);
+             s += obj.address + "                   " + obj.hexValue + "\n";
          }
+        return s;
     }
 
     
